@@ -1,0 +1,117 @@
+
+@article{langdale_parsing_2019,
+	title = {Parsing Gigabytes of {JSON} per Second},
+	volume = {28},
+	issn = {1066-8888, 0949-877X},
+	url = {http://arxiv.org/abs/1902.08318},
+	doi = {10.1007/s00778-019-00578-5},
+	abstract = {{JavaScript} Object Notation or {JSON} is a ubiquitous data exchange format on the Web. Ingesting {JSON} documents can become a performance bottleneck due to the sheer volume of data. We are thus motivated to make {JSON} parsing as fast as possible.},
+	pages = {941--960},
+	number = {6},
+	journaltitle = {The {VLDB} Journal},
+	shortjournal = {The {VLDB} Journal},
+	author = {Langdale, Geoff and Lemire, Daniel},
+	urldate = {2020-03-16},
+	date = {2019-12},
+	langid = {english},
+	eprinttype = {arxiv},
+	eprint = {1902.08318},
+	keywords = {Computer Science - Databases, Computer Science - Performance},
+	file = {Langdale and Lemire - 2019 - Parsing Gigabytes of JSON per Second.pdf:/home/zahrof/Zotero/storage/4Y5I8VTQ/Langdale and Lemire - 2019 - Parsing Gigabytes of JSON per Second.pdf:application/pdf}
+}
+
+@online{noauthor_dap_nodate,
+	title = {{DAP}},
+	url = {https://microsoft.github.io/debug-adapter-protocol/overview},
+	urldate = {2020-03-16},
+	file = {Overview:/home/zahrof/Zotero/storage/8K6YPP38/overview.html:text/html}
+}
+
+@incollection{caires_abstract_2019,
+	location = {Cham},
+	title = {An Abstract Domain for Trees with Numeric Relations},
+	volume = {11423},
+	isbn = {978-3-030-17183-4 978-3-030-17184-1},
+	url = {http://link.springer.com/10.1007/978-3-030-17184-1_26},
+	abstract = {We present an abstract domain able to infer invariants on programs manipulating trees. Trees considered in the article are deﬁned over a ﬁnite alphabet and can contain unbounded numeric values at their leaves. Our domain can infer the possible shapes of the tree values of each variable and ﬁnd numeric relations between: the values at the leaves as well as the size and depth of the tree values of diﬀerent variables. The abstract domain is described as a product of (1) a symbolic domain based on a tree automata representation and (2) a numerical domain lifted, for the occasion, to describe numerical maps with potentially inﬁnite and heterogeneous deﬁnition set. In addition to abstract set operations and widening we deﬁne concrete and abstract transformers on these environments. We present possible applications, such as the ability to describe memory zones, or track symbolic equalities between program variables. We implemented our domain in a static analysis platform and present preliminary results analyzing a tree-manipulating toy-language.},
+	pages = {724--751},
+	booktitle = {Programming Languages and Systems},
+	publisher = {Springer International Publishing},
+	author = {Journault, Matthieu and Miné, Antoine and Ouadjaout, Abdelraouf},
+	editor = {Caires, Luís},
+	urldate = {2020-03-16},
+	date = {2019},
+	langid = {english},
+	doi = {10.1007/978-3-030-17184-1_26},
+	file = {Journault et al. - 2019 - An Abstract Domain for Trees with Numeric Relation.pdf:/home/zahrof/Zotero/storage/HFTE6SSK/Journault et al. - 2019 - An Abstract Domain for Trees with Numeric Relation.pdf:application/pdf}
+}
+
+@incollection{rival_static_2016,
+	location = {Berlin, Heidelberg},
+	title = {Static Analysis by Abstract Interpretation of the Functional Correctness of Matrix Manipulating Programs},
+	volume = {9837},
+	isbn = {978-3-662-53412-0 978-3-662-53413-7},
+	url = {http://link.springer.com/10.1007/978-3-662-53413-7_13},
+	abstract = {We present new abstract domains to prove automatically the functional correctness of algorithms implementing matrix operations, such as matrix addition, multiplication, {GEMM} (general matrix multiplication), or more generally {BLAS} (Basic Linear Algebra Subprograms). In order to do so, we introduce a family of abstract domains parameterized by a set of matrix predicates as well as a numeric domain. We show that our analysis is robust enough to prove the functional correctness of several versions of the same matrix operations, resulting from loop reordering, loop tiling, inverting the iteration order, line swapping, and expression decomposition. Finally, we extend our method to enable modular analysis on code fragments manipulating matrices by reference, and show that it results in a signiﬁcant analysis speedup.},
+	pages = {257--277},
+	booktitle = {Static Analysis},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Journault, Matthieu and Miné, Antoine},
+	editor = {Rival, Xavier},
+	urldate = {2020-03-16},
+	date = {2016},
+	langid = {english},
+	doi = {10.1007/978-3-662-53413-7_13},
+	file = {Journault and Miné - 2016 - Static Analysis by Abstract Interpretation of the .pdf:/home/zahrof/Zotero/storage/79BBIHBJ/Journault and Miné - 2016 - Static Analysis by Abstract Interpretation of the .pdf:application/pdf}
+}
+
+@article{delmas_analysis_nodate,
+	title = {Analysis of Program Differences with Numerical Abstract Interpretation},
+	pages = {6},
+	author = {Delmas, David and Miné, Antoine},
+	langid = {english},
+	file = {Delmas and Miné - Analysis of Program Differences with Numerical Abs.pdf:/home/zahrof/Zotero/storage/QIRGR3HV/Delmas and Miné - Analysis of Program Differences with Numerical Abs.pdf:application/pdf}
+}
+
+@incollection{chakraborty_combinations_2020,
+	location = {Cham},
+	title = {Combinations of Reusable Abstract Domains for a Multilingual Static Analyzer},
+	volume = {12031},
+	isbn = {978-3-030-41599-0 978-3-030-41600-3},
+	url = {http://link.springer.com/10.1007/978-3-030-41600-3_1},
+	abstract = {We discuss the design of Mopsa, an ongoing eﬀort to design a novel semantic static analyzer by abstract interpretation. Mopsa strives to achieve a high degree of modularity and extensibility by considering value abstractions for numeric, pointer, objects, arrays, etc. as well as syntax-driven iterators and control-ﬂow abstractions uniformly as domain modules, which oﬀer a uniﬁed signature and loose coupling, so that they can be combined and reused at will. Moreover, domains can dynamically rewrite expressions, which simpliﬁes the design of relational abstractions, encourages a design based on layered semantics, and enables domain reuse across diﬀerent analyses and diﬀerent languages. We present preliminary applications of Mopsa analyzing simple programs in subsets of the C and Python programming languages, checking them for run-time errors and uncaught exceptions.},
+	pages = {1--18},
+	booktitle = {Verified Software. Theories, Tools, and Experiments},
+	publisher = {Springer International Publishing},
+	author = {Journault, Matthieu and Miné, Antoine and Monat, Raphaël and Ouadjaout, Abdelraouf},
+	editor = {Chakraborty, Supratik and Navas, Jorge A.},
+	urldate = {2020-03-16},
+	date = {2020},
+	langid = {english},
+	doi = {10.1007/978-3-030-41600-3_1},
+	file = {Journault et al. - 2020 - Combinations of Reusable Abstract Domains for a Mu.pdf:/home/zahrof/Zotero/storage/5U96VDQR/Journault et al. - 2020 - Combinations of Reusable Abstract Domains for a Mu.pdf:application/pdf}
+}
+
+@online{noauthor_json_nodate,
+	title = {{JSON}},
+	url = {https://www.json.org/json-fr.html},
+	urldate = {2020-03-16},
+	file = {JSON:/home/zahrof/Zotero/storage/Z2NHB6NK/json-fr.html:text/html}
+}
+
+@online{noauthor_extension_nodate,
+	title = {Extension {API}},
+	url = {https://code.visualstudio.com/api/index},
+	abstract = {Visual Studio Code has a rich extension {API}. Learn how to create your own extensions for {VS} Code.},
+	urldate = {2020-03-16},
+	langid = {english},
+	file = {Snapshot:/home/zahrof/Zotero/storage/VC5MCR8E/api.html:text/html}
+}
+
+@book{JavaScriptBook,
+author = {David Flanagan},
+title = {JavaScript: The Definitive Guide},
+year = {2011},
+isbn = { 978-0-596-80552-4},
+publisher = {O’Reilly Media, Inc.}, address = {1005 Gravenstein Highway North, Sebastopol, CA 95472},edition = {6th}
+}

@@ -1,0 +1,41 @@
+\begin{thebibliography}{1}
+
+\bibitem{delmas_analysis_nodate}
+David Delmas and Antoine Miné.
+\newblock Analysis of program differences with numerical abstract
+  interpretation.
+\newblock page~6.
+
+\bibitem{JavaScriptBook}
+David Flanagan.
+\newblock {\em JavaScript: The Definitive Guide}.
+\newblock O’Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol,
+  CA 95472, 6th edition, 2011.
+
+\bibitem{rival_static_2016}
+Matthieu Journault and Antoine Miné.
+\newblock Static analysis by abstract interpretation of the functional
+  correctness of matrix manipulating programs.
+\newblock In Xavier Rival, editor, {\em Static Analysis}, volume 9837, pages
+  257--277. Springer Berlin Heidelberg.
+
+\bibitem{chakraborty_combinations_2020}
+Matthieu Journault, Antoine Miné, Raphaël Monat, and Abdelraouf Ouadjaout.
+\newblock Combinations of reusable abstract domains for a multilingual static
+  analyzer.
+\newblock In Supratik Chakraborty and Jorge~A. Navas, editors, {\em Verified
+  Software. Theories, Tools, and Experiments}, volume 12031, pages 1--18.
+  Springer International Publishing.
+
+\bibitem{caires_abstract_2019}
+Matthieu Journault, Antoine Miné, and Abdelraouf Ouadjaout.
+\newblock An abstract domain for trees with numeric relations.
+\newblock In Luís Caires, editor, {\em Programming Languages and Systems},
+  volume 11423, pages 724--751. Springer International Publishing.
+
+\bibitem{langdale_parsing_2019}
+Geoff Langdale and Daniel Lemire.
+\newblock Parsing gigabytes of {JSON} per second.
+\newblock 28(6):941--960.
+
+\end{thebibliography}
